@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER SQR_inv_ip
+	OPTION supported_peripherals = (SQR_inv_ip);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = SQR_inv_ip;
+END DRIVER
